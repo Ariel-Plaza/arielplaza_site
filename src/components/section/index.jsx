@@ -1,4 +1,4 @@
-import "./index.sass"; // Asegúrate de importar tus estilos aquí
+import "./index.sass";
 import Left from "./left/Left.jsx";
 import Right from "./right/Right.jsx";
 import PictureBg from "./PictureBg.jsx";
@@ -8,6 +8,7 @@ const Section = () => {
     <div className="section">
       <div className="container">
         <Left />
+        <div className="center"></div>
         <Right />
       </div>
       <PictureBg />

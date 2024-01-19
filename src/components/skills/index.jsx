@@ -1,0 +1,29 @@
+import { Section_title } from "../section_title";
+import ButtonIcon from "../ButtonIcon.jsx";
+import Card from "./Card.jsx"
+
+import iconarrow from "../../assets/icons/down.png";
+
+import "./index.sass";
+
+const Skills = () => {
+  return (
+    <div className="skills">
+      <div className="skills_container">
+        <div className="left">
+          <Section_title
+            sectionTitle="MY SKILLS"
+            Title="My extensive list of skills"
+          />
+        </div>
+        <div className="right">
+          <ButtonIcon icon={iconarrow} rotateLeft={true} />
+          <ButtonIcon icon={iconarrow} rotateRight={true}  />
+        </div>
+        <Card />
+      </div>
+    </div>
+  );
+};
+
+export default Skills;

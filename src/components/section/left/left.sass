@@ -1,0 +1,30 @@
+.left
+  width: 50%
+  h1  
+    margin: 10px
+    font-size: var(--font-size-title)
+    font-weight: var(--font-weight-bold)
+  p 
+    font-size: var(--font-size-subtitle)
+    font-weight: var(--font-weight-regular)
+  .circle
+    .arrow
+        animation-name: move
+        animation-duration: 2s
+        animation-iteration-count: infinite
+        animation-direction: normal
+        animation-timing-function: ease-in-out
+
+@keyframes move
+  0%,
+  100%
+    transform: translateY(0)
+
+  45%
+    transform: translateY(-30px)
+
+  75%
+    transform: translateY(35px)
+
+  90%
+    transform: translateY(0px)
