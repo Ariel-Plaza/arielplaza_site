@@ -1,15 +1,16 @@
 import "./card.sass"
 import ButtonIcon from "../ButtonIcon.jsx";
-import htmlIcon from "../../assets/icons/html.svg";
 
 
-const Card = () => {
+
+const Card = ({ icon, title, info }) => {
   return (
     <div className="card">
-      <ButtonIcon icon={htmlIcon} />
-      <h2>HTML&CSS</h2>
-      <p>Duis aute irure dolor in reprhenderit in voñuptate.</p>
-      <div className="line"></div>
+      <ButtonIcon icon={icon} />
+      <h2>{title}</h2>
+      <p>{info}</p>
+      <div className="line" >
+      </div>
     </div>
   );
 }
