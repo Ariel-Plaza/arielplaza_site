@@ -9,47 +9,30 @@
   --bg-card-down: #2D343F;
   --bg-card-upper: #5D6C83;
   --negro: #393939;
-  
+
 
   /* Tipografía */
   --tipo-principal: "Space Grotesk";
   --tipo-secundaria: Verdana;
 
-/*   
-    --font-size-title: 76px;
-    --font-size-subtitle: 18px;
-    --font-size-menu: 20px;
-    --font-size-side-title: 18px;
-    --font-size-side-subtitle: 18px;
-    --font-size-side-link: 16px;
-    --font-size-section-title: 52px;
-    --font-size-section-subtitle: 20px;
-    --font-size-section-info: 18px;
-    --font-size-section-link: 24px; */
-  
-    /* Peso de la fuente */
-    /* --font-weight-regular: 400;
-    --font-weight-medium: 500;
-    --font-weight-bold: 700; */
+  /* Tamaño de la fuente */
+  --font-size-title: 76px;
+  --font-size-subtitle: 18px;
+  --font-size-menu: 20px;
+  --font-size-side-title: 18px;
+  --font-size-side-subtitle: 18px;
+  --font-size-side-link: 16px;
+  --font-size-section-title: 52px;
+  --font-size-section-subtitle: 20px;
+  --font-size-section-info: 18px;
+  --font-size-section-link: 24px;
+  --font-size-card-title: 38px;
+  --font-size-card-client:34px;
 
-    /*Tipografia secciones*/
-      /* Tamaño de la fuente */
-      --font-size-title: 76px;
-      --font-size-subtitle: 18px;
-      --font-size-menu: 20px;
-      --font-size-side-title: 18px;
-      --font-size-side-subtitle: 18px;
-      --font-size-side-link: 16px;
-      --font-size-section-title: 52px;
-      --font-size-section-subtitle: 20px;
-      --font-size-section-info: 18px;
-      --font-size-section-link: 24px;
-      --font-size-card-title: 38px;
-    
-      /* Peso de la fuente */
-      --font-weight-regular: 400;
-      --font-weight-medium: 500;
-      --font-weight-bold: 700;
+  /* Peso de la fuente */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
 
 }
 
@@ -60,6 +43,7 @@
   font-weight: 400;
   src: url("../fonts/SpaceGrotesk-Regular.otf") format("woff2");
 }
+
 @font-face {
   font-family: "Space Grotesk";
   font-style: normal;
@@ -217,4 +201,3 @@ body {
   /* (Opcional) */
   -moz-osx-font-smoothing: grayscale;
 }
-
