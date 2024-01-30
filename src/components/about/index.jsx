@@ -1,4 +1,4 @@
-import {Section_title} from "../section_title";
+import SectionTitle from "../SectionTitle.jsx";
 import "./index.sass";
 
 const About = () => {
@@ -6,7 +6,7 @@ const About = () => {
     <div className="about">
       <div className="about_container">
         <div className="left">
-          <Section_title
+          <SectionTitle
             sectionTitle="ABOUT ME"
             Title="I´ve been developing websites since 2010"
           />

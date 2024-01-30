@@ -1,4 +1,4 @@
-import Section_title from "../section_title";
+import SectionTitle from "../SectionTitle.jsx";
 import ButtonIcon from "../ButtonIcon.jsx";
 import Card from "./Card.jsx"
 
@@ -12,7 +12,7 @@ const Skills = () => {
     <div className="skills">
       <div className="skills_container">
         <div className="left">
-          <Section_title
+          <SectionTitle
             sectionTitle="MY SKILLS"
             Title="My extensive list of skills"
           />

@@ -1,5 +1,5 @@
 import "./index.sass";
-import Section_title from "../section_title";
+import SectionTitle from "../SectionTitle.jsx";
 import Card from "./Card";
 import icon1 from "../../assets/icons/html.svg"
 import portfolio1 from "../../assets/img/portfolio/portfolio1.png"
@@ -9,7 +9,7 @@ const Portfolio = () => {
     <div className="portafolio">
       <div className="portfolio_container">
         <div className="title">
-          <Section_title
+          <SectionTitle
             sectionTitle="MY PORTFOLIO"
             Title="Take a look at the latest projects I’ve done"
           />

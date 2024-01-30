@@ -1,6 +1,6 @@
 import "./section_title.sass";
 
-export function Section_title({ sectionTitle, Title }) {
+export function SectionTitle({ sectionTitle, Title }) {
   return (
     <div className="section_title">
       <div className="title_up">
@@ -12,4 +12,4 @@ export function Section_title({ sectionTitle, Title }) {
   );
 };
 
-export default Section_title;
+export default SectionTitle;
