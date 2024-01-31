@@ -1,4 +1,4 @@
-import "./contact.sass"
+import "./index.sass"
 
 const Contact = () => {
   return (
