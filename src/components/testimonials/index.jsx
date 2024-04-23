@@ -1,7 +1,8 @@
 import "./index.sass";
 import SectionTitle from "../SectionTitle.jsx";
 import ClientCard from "./ClientCard.jsx";
-import AndySmith from "../../assets/img/testimonials/andy_smith.jpeg"
+import CarolinaVillaroel from "../../assets/img/testimonials/mujer.jpg"
+import defaultUSer from "../../assets/img/testimonials/andy_smith.jpeg";
 import Venture from "../../assets/img/testimonials/venture.svg"
 import ButtonIcon from "../ButtonIcon.jsx";
 import iconarrow from "../../assets/icons/down.png";
@@ -12,20 +13,18 @@ const Testimonials = () => {
       <div className="testimonials_container">
         <div className="up">
           <SectionTitle
-            sectionTitle="Testimonial"
-            Title="What the clients say about my work"
+            sectionTitle="Testimonios"
+            Title="Opiniones de clientes sobre mi trabajo"
           />
-          <a href="#">Get in touch</a>
+          <a href="#">Contactame</a>
         </div>
         <div className="card_container">
           <ClientCard
-            img={AndySmith}
+            img={defaultUSer}
             brand={Venture}
-            info={
-              ' “John did an amazing work with our web-app, everything he did to optimize our software help us to reduce our loading speed by 56%" '
-            }
-            userclient="ANDY SMITH"
-            jobposition="VP OF DEVOPS AT VENTURE"
+            info={' “Diseño e implementacion de tienda rapida y profesional." '}
+            userclient="CAROLINA VILLARROEL"
+            jobposition="PROPIETARIO"
           />
         </div>
         <div className="arrows">

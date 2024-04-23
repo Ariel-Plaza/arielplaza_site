@@ -5,7 +5,7 @@ import PictureBg from "./PictureBg.jsx";
 
 const Section = () => {
   return (
-    <div className="section">
+    <div className="section" id="Inicio">
       <div className="container">
         <Left />
         <div className="center"></div>

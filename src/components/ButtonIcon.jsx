@@ -1,18 +1,20 @@
 import "./buttonIcon.sass"
 // import icon from "../assets/img/down.png";
 
-const ButtonIcon = ({ icon, rotateRight, rotateLeft}) => {
-  // const iconStyle = {
-  //   transform: rotateRight ? "rotate(90deg)" : "rotate(0deg)",
-  // };
- let iconStyle = {};
+function ButtonIcon({ icon, rotateRight, rotateLeft }) {
+  const iconStyle = {};
 
- if (rotateRight) {
-   iconStyle.transform = "rotate(-90deg)";
- } else if (rotateLeft) {
-   iconStyle.transform = "rotate(90deg)";
- }
+  if (rotateRight) {
+    iconStyle.transform = "rotate(-90deg)";
+    iconStyle.marginLeft = "15px";
+    iconStyle.padding = "0px";
 
+  } else if (rotateLeft) {
+    iconStyle.transform = "rotate(90deg)";
+    iconStyle.marginRight = "15px";
+    iconStyle.padding = "0px";
+    
+  }
 
   return (
     <div className="circle">
@@ -21,7 +23,7 @@ const ButtonIcon = ({ icon, rotateRight, rotateLeft}) => {
       </a>
     </div>
   );
-};
+}
 
 export default ButtonIcon;
 

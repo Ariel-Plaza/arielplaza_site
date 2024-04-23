@@ -7,8 +7,7 @@ const Card = ({ icon, title, info }) => {
       <ButtonIcon icon={icon} />
       <h2>{title}</h2>
       <p>{info}</p>
-      <div className="line" >
-      </div>
+      <span className="line" ></span>
     </div>
   );
 }

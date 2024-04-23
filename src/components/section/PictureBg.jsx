@@ -1,6 +1,6 @@
 import React from "react";
 import "./picturebg.sass";
-import picture from "../../assets/img/dev2.png";
+import picture from "../../assets/img/perfil.png";
 
 const PictureBg = () => {
   return (

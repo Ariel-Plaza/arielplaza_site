@@ -1,5 +1,9 @@
-import dev_pic from "../../assets/img/dev_contact.jpg";
-
+import dev_pic from "../../assets/img/perfil.png";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa6";
+import { FaTwitter } from "react-icons/fa6";
 import "./index.sass";
 const Footer = () => {
   return (
@@ -10,46 +14,61 @@ const Footer = () => {
             <div className="me">
               <img src={dev_pic} alt="" />
               <div className="contact_name">
-                <h3>Jhon Carter</h3>
-                <p>Head of Engineering at Google</p>
+                <h3>Ariel Plaza</h3>
+                <p>Desarrollador Full-Stack</p>
               </div>
             </div>
             <div className="socials">
-              <div className="social_one">Facebook</div>
-              <div className="social_two">Twitter</div>
-              <div className="social_three">Instagram</div>
+              <a href="https://www.github.com">
+                <FaGithub size={35} />
+              </a>
+              <a href="https://www.linkedin.com">
+                <FaLinkedin size={35} />
+              </a>
+              <a href="https://www.instagram.com">
+                <FaInstagram size={35} />
+              </a>
+              <a href="https://www.facebook.com">
+                <FaFacebook size={35} />
+              </a>
+              <a href="https://www.twitter.com">
+                <FaTwitter size={35} />
+              </a>
             </div>
           </div>
           <div className="right">
-            <h2>Get in touch</h2>
+            <h2>Contacto</h2>
             <div className="contact_info">
               <div className="email">
-                <h4>EMAIL ME:</h4>
-                <p>contact@jhon.com</p>
+                <h4>CORREO:</h4>
+                <p>web@arielplaza.com</p>
               </div>
               <div className="call_me">
-                <h4>Call Me:</h4>
-                <p>(414)977-048</p>
+                <h4>Llamame:</h4>
+                <p>(+569)8609-3996</p>
               </div>
             </div>
           </div>
         </div>
+
         <div className="footer_bottom">
-          <ul className="links">
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Contact</a>
-            </li>
-          </ul>
-          <p>Designed: Ariel Plaza</p>
+          <div className="line" />
+          <div className="info">
+            <ul className="links">
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#">Sobre Mi</a>
+              </li>
+              <li>
+                <a href="#">Portafolio</a>
+              </li>
+              <li>
+                <a href="#">Contacto</a>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>

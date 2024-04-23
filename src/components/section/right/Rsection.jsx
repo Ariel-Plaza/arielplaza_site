@@ -4,7 +4,7 @@ export function RightComponent ({componentTitle, componentInfo, componentButton}
       <h2>{componentTitle}</h2>
       <p>{componentInfo}</p>
       <button>{componentButton}</button>
-      
+      <hr className="line"></hr>
     </div>
   );
 };

@@ -3,10 +3,18 @@ const Nav = () => {
   return (
     <nav className="main-menu">
       <ul className="nav-item">
-        <li className="active">Home</li>
-        <li>Sobre Mi</li>
-        <li>Portafolio</li>
-        <li>Contacto</li>
+        <li className="active">
+          <a href="#Inicio">Home</a>
+        </li>
+        <li>
+          <a href="#sobreMi">Sobre Mi</a>
+        </li>
+        <li>
+          <a href="#portafolio">Portafolio</a>
+        </li>
+        <li>
+          <a href="#contacto">Contacto</a>
+        </li>
         <li>Tienda</li>
       </ul>
     </nav>

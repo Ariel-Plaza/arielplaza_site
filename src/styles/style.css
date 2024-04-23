@@ -7,7 +7,7 @@
   --big-icons: #075FE4;
   --small-icons: #A9B2C0;
   --bg-card-down: #2D343F;
-  --bg-card-upper: #5D6C83;
+  --bg-card-upper: #C3CAD5;
   --negro: #393939;
 
 
@@ -131,11 +131,11 @@ i,
 b,
 u,
 em {
-  font-size: inherit;
+  /* font-size: inherit;
   font-weight: inherit;
   font-style: inherit;
   text-decoration: none;
-  color: inherit;
+  color: inherit; */
 }
 
 /* Evitamos problemas con los pseudoelementos de quotes */
@@ -191,7 +191,7 @@ body {
   background-color: var(--main-background);
   font-size: 100%;
   font-family: "Space Grotesk";
-  color: var(--negro);
+  color: var(--font-color);
   /* (Opcional) */
   hyphens: auto;
   /* (Opcional) */
@@ -200,4 +200,5 @@ body {
   -webkit-font-smoothing: antialiased;
   /* (Opcional) */
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }

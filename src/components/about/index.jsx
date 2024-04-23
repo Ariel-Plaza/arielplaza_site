@@ -1,41 +1,65 @@
 import SectionTitle from "../SectionTitle.jsx";
 import "./index.sass";
+import CompanyLogo from "./CompanyLogo.jsx";
+import aprLogo from "../../assets/img/about/apr.png";
+import marticarLogo from "../../assets/img/about/marticar.png";
+import arbassLogo from "../../assets/img/about/arbass.png";
+
+
 
 const About = () => {
   return (
-    <div className="about">
+    <div className="about" id="sobreMi">
       <div className="about_container">
         <div className="left">
           <SectionTitle
-            sectionTitle="ABOUT ME"
-            Title="I´ve been developing websites since 2010"
+            sectionTitle="SOBRE MI"
+            Title="He desarrollado sitios web desde 2011 "
           />
           <p>
-            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-            officia deserunt mollit anim id est laborum aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat.
+            Centrando mi atención principalmente en el Front-end,
+            inicialmentenpm diseñé páginas web utilizando HTML y CSS. Con el
+            tiempo, amplié mis habilidades incorporando herramientas como
+            Wordpress, Elementor, Divi y Woocommerce. Además, complementé mi
+            experiencia con una carrera paralela como Técnico en Informática.
           </p>
-          <div className="button">More about me</div>
+          <div className="button">Mas sobre mi</div>
         </div>
         <div className="center"></div>
         <div className="right">
           <div className="title">
-            <div className="first">
-              <h2>12</h2>
-              <p>Years of experience</p>
+            <div className="first" >
+              <h2>2</h2>
+              <div>
+                <p>Años</p>
+                <p> Full-Stack JS</p>
+              </div>
+              
             </div>
             <div className="second">
-              <h2>150</h2>
-              <p>Successful projects</p>
+              <h2>10</h2>
+              <p>
+                Proyectos
+                Realizados
+              </p>
             </div>
           </div>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim
-            ad minim veniam, quis nostrud exercitation
+          <p className="text-bottom">
+            En el ultimo tiempo he aprendido sobre desarrollo Back-end.
+            Aprendiendo JS, Node, SQL, Bootstrap, React.
           </p>
         </div>
-        <div className="clients">Clientes</div>
+        <div className="clients">
+          <div className="line" />
+          <div className="content">
+            <h1>TRABAJE PARA:</h1>
+            <div className="icons">
+              <CompanyLogo src={aprLogo} alt={"Logo Apr Maicolpue"} />
+              <CompanyLogo src={marticarLogo} alt={"Logo MArticarroller"} />
+              <CompanyLogo src={arbassLogo} alt={"Logo Arbass"} />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

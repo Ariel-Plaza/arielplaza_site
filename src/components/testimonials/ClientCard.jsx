@@ -10,8 +10,8 @@ const ClientCard = ({ img, brand, info, userclient, jobposition }) => {
         <p className="info">{info}</p>
         <div className="bottom">
           <UserClient
-            userclient="ANDY SMITH"
-            jobposition="VP OF DEVOPS AT VENTURE"
+            userclient={userclient}
+            jobposition={jobposition}
           />
         </div>
       </div>
