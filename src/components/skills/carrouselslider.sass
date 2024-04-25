@@ -1,0 +1,36 @@
+
+.slick-prev,
+.slick-next 
+  top: -310px
+  width: 100px 
+  height: 100px
+  z-index: 1
+  color: red
+  background-color: var(--big-icons)
+  border-radius: 50%
+  
+  
+.slick-prev:before,
+.slick-next:before
+  font-family: 'Font Awesome 5 Free'
+  font-size: 100px
+  line-height: 1
+  opacity: 1
+  color: white
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+.slick-prev 
+  left: calc(100% - 150px)
+
+
+.slick-prev::before
+  font-family: FontAwesome
+  content: "\f053"
+  font-size: 40px
+
+.slick-next::before
+  font-family: FontAwesome
+  content: "\f054"
+  font-size: 40px
+

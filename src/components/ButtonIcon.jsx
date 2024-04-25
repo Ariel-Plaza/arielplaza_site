@@ -26,4 +26,3 @@ function ButtonIcon({ icon, rotateRight, rotateLeft }) {
 }
 
 export default ButtonIcon;
-
