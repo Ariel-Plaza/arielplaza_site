@@ -11,11 +11,7 @@ import htmlIcon from "../../assets/icons/html.svg";
 import jsIcon from "../../assets/icons/js.png";
 import nodejsIcon from "../../assets/icons/nodejs.png";
 
-import { FaAngleRight } from "react-icons/fa6";
-
 import "./carrouselslider.sass"
-
-
 
 export default function SimpleSlider() {
   var settings = {
@@ -28,7 +24,38 @@ export default function SimpleSlider() {
   };
   return (
     <Slider {...settings}>
-      <div>
+      <div className="slide_card">
+        <Card
+          icon={htmlIcon}
+          title="HTML & CSS"
+          info="Experiencia destacada en la creación de interfaces web
+                estéticas, funcionales, accesibles y responsivas."
+        />
+        <Card
+          icon={jsIcon}
+          title="Javascript"
+          info="Tengo habilidades desarrollando aplicaciones web dinámicas y funcionales, con tecnologías modernas y  metodologías de desarrollo."
+        />
+      </div>
+      <div className="slide_card">
+        <Card
+          icon={nodejsIcon}
+          title="Node JS"
+          info="Familiarizado con el desarrollo de aplicaciones web, manejo npm, servidores HTTP y el desarrollo de API RESTful."
+        />
+        <Card
+          icon={nodejsIcon}
+          title="SQL"
+          info="diseño, mantengo bases de datos, optimizando consultas, integridad de datos,modelado de datos, normalización, consultas."
+        />
+      </div>
+      <div className="slide_card">
+        <Card
+          icon={htmlIcon}
+          title="HTML & CSS"
+          info="Experiencia destacada en la creación de interfaces web
+                estéticas, funcionales, accesibles y responsivas."
+        />
         <Card
           icon={htmlIcon}
           title="HTML & CSS"
@@ -36,21 +63,19 @@ export default function SimpleSlider() {
                 estéticas, funcionales, accesibles y responsivas."
         />
       </div>
-      <div>
-        <h3>2</h3>
-      </div>
-      <div>
-        <h3>3</h3>
-      </div>
-      <div>
-        <h3>4</h3>
-      </div>
-      <div>
-        <h3>5</h3>
-      </div>
-      <FaAngleRight />
-      <div>
-        <h3>6</h3>
+      <div className="slide_card">
+        <Card
+          icon={htmlIcon}
+          title="HTML & CSS"
+          info="Experiencia destacada en la creación de interfaces web
+                estéticas, funcionales, accesibles y responsivas."
+        />
+        <Card
+          icon={htmlIcon}
+          title="HTML & CSS"
+          info="Experiencia destacada en la creación de interfaces web
+                estéticas, funcionales, accesibles y responsivas."
+        />
       </div>
     </Slider>
   );
