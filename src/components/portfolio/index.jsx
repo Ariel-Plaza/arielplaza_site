@@ -7,7 +7,10 @@ import iconaps from "../../assets/img/logo.svg";
 
 import icon2 from "../../assets/icons/html.svg";
 
-import portfolio1 from "../../assets/img/portfolio/portfolio1.png"
+import portfolio1 from "../../assets/img/portfolio/marticar_portfolio.png"
+import portfolio2 from "../../assets/img/portfolio/apr_portfolio.png";
+import portfolio3 from "../../assets/img/portfolio/aps_portfolio.png";
+
 import { FaArrowRight } from "react-icons/fa6";
 
 const Portfolio = () => {
@@ -40,16 +43,16 @@ const Portfolio = () => {
           icon_client={iconapr}
           client="APR Maicolpue"
           title="Pagina informativa"
-          img={portfolio1}
+          img={portfolio2}
         />
         <Card
           portfolio_number="portfolio_card three"
           tecnology1="REACT"
           tecnology2="SASS"
           icon_client={iconaps}
-          client="Ariel Plaza"
+          client="Ariel Plaza - v1"
           title="Sitio web para desarrollador"
-          img={portfolio1}
+          img={portfolio3}
         />
       </div>
     </div>
