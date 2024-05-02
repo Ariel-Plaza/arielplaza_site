@@ -1,10 +1,9 @@
 import "./index.sass";
 import SectionTitle from "../SectionTitle.jsx";
 import Card from "./Card";
-import iconmarticar from "../../assets/icons/logo_marticar.jpg"
+import iconmarticar from "../../assets/icons/logo_marticar.png"
 import iconapr from "../../assets/icons/logo_apr.svg";
 import iconaps from "../../assets/img/logo.svg";
-
 import icon2 from "../../assets/icons/html.svg";
 
 import portfolio1 from "../../assets/img/portfolio/marticar_portfolio.png"
