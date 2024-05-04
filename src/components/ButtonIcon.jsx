@@ -1,7 +1,7 @@
 import "./buttonIcon.sass"
 // import icon from "../assets/img/down.png";
 
-function ButtonIcon({ icon, rotateRight, rotateLeft }) {
+function ButtonIcon({ icon, rotateRight, rotateLeft, href }) {
   const iconStyle = {};
 
   if (rotateRight) {
@@ -18,7 +18,7 @@ function ButtonIcon({ icon, rotateRight, rotateLeft }) {
 
   return (
     <div className="circle">
-      <a className="arrow" href="#" style={iconStyle}>
+      <a className="arrow" href={href} style={iconStyle}>
         <img src={icon} alt="icon" />
       </a>
     </div>

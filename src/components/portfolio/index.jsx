@@ -27,6 +27,7 @@ const Portfolio = () => {
           </div>
         </div>
         <Card
+          href={"https://www.marticarroller.cl"}
           portfolio_number="portfolio_card one"
           tecnology1="WORDPRESS"
           tecnology2="WOO"
@@ -36,6 +37,7 @@ const Portfolio = () => {
           img={portfolio1}
         />
         <Card
+          href={"https://www.aprmaicolpue.cl"}
           portfolio_number="portfolio_card two"
           tecnology1="WORDPRESS"
           tecnology2="ELEMENTOR"

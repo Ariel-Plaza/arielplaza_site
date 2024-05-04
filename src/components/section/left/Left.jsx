@@ -11,7 +11,10 @@ const Left = () => {
         Un apasionado desarrollador web freelance, listo para convertir tus
         ideas en realidad.
       </p>
-      <ButtonIcon icon={iconarrow}  />
+      <ButtonIcon
+        icon={iconarrow}
+        href={"#sobreMi"}
+      />
     </div>
   );
 }

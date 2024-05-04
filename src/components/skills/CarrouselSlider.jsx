@@ -10,6 +10,8 @@ import iconarrow from "../../assets/icons/down.png";
 import htmlIcon from "../../assets/icons/html.svg";
 import jsIcon from "../../assets/icons/js.png";
 import nodejsIcon from "../../assets/icons/nodejs.png";
+import wordpressIcon from "../../assets/icons/wordpress.png";
+import wooIcon from "../../assets/icons/woo.png";
 
 import "./carrouselslider.sass"
 
@@ -20,7 +22,6 @@ export default function SimpleSlider() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    
   };
   return (
     <Slider {...settings}>
@@ -46,35 +47,19 @@ export default function SimpleSlider() {
         <Card
           icon={nodejsIcon}
           title="SQL"
-          info="diseño, mantengo bases de datos, optimizando consultas, integridad de datos,modelado de datos, normalización, consultas."
+          info="Diseño, mantengo bases de datos, optimizando consultas, integridad de datos,modelado de datos, normalización, consultas."
         />
       </div>
       <div className="slide_card">
         <Card
-          icon={htmlIcon}
-          title="HTML & CSS"
-          info="Experiencia destacada en la creación de interfaces web
-                estéticas, funcionales, accesibles y responsivas."
+          icon={wordpressIcon}
+          title="WORDPRESS"
+          info="He creado paginas web, tiendas y blogs"
         />
         <Card
-          icon={htmlIcon}
-          title="HTML & CSS"
-          info="Experiencia destacada en la creación de interfaces web
-                estéticas, funcionales, accesibles y responsivas."
-        />
-      </div>
-      <div className="slide_card">
-        <Card
-          icon={htmlIcon}
-          title="HTML & CSS"
-          info="Experiencia destacada en la creación de interfaces web
-                estéticas, funcionales, accesibles y responsivas."
-        />
-        <Card
-          icon={htmlIcon}
-          title="HTML & CSS"
-          info="Experiencia destacada en la creación de interfaces web
-                estéticas, funcionales, accesibles y responsivas."
+          icon={wooIcon}
+          title="WOOCOMMERCE"
+          info="Utilización de plataforma de pago con multiples opciones"
         />
       </div>
     </Slider>

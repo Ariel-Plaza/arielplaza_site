@@ -15,7 +15,6 @@ const Nav = () => {
         <li>
           <a href="#contacto">Contacto</a>
         </li>
-        <li>Tienda</li>
       </ul>
     </nav>
   );

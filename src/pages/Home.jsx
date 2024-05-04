@@ -5,7 +5,7 @@ import About from "../components/about/index.jsx";
 import Skills from "../components/skills/index.jsx";
 import Portfolio from "../components/portfolio/index.jsx";
 import Testimonials from "../components/testimonials/index.jsx";
-import Contact from "../components/contact/index.jsx";
+// import Contact from "../components/contact/index.jsx";
 import Footer from "../components/footer/index.jsx";
 
 const Index = () => {
@@ -17,7 +17,7 @@ const Index = () => {
       <Skills /> 
       <Portfolio />
       <Testimonials />
-      <Contact />
+      {/* <Contact /> */}
       <Footer />
     </div>
   );

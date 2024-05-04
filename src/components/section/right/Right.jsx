@@ -21,22 +21,21 @@ const Right = () => {
         componentButton="VER PORTAFOLIO"
       />
       <div className="socials">
-          <a href="https://www.github.com">
-            <FaGithub size={35} />
-          </a>
-          <a href="https://www.linkedin.com">
-            <FaLinkedin size={35} />
-          </a>
-          <a href="https://www.instagram.com">
-            <FaInstagram size={35} />
-          </a>
-          <a href="https://www.facebook.com">
-            <FaFacebook size={35} />
-          </a>
-          <a href="https://www.twitter.com">
-            <FaTwitter size={35} />
-          </a>
-        
+        <a href="https://www.github.com/Ariel-Plaza/" target="_blank">
+          <FaGithub size={35} />
+        </a>
+        <a href="https://www.linkedin.com/in/arielplazas" target="_blank">
+          <FaLinkedin size={35} />
+        </a>
+        <a href="https://www.instagram.com/arielplaza/" target="_blank">
+          <FaInstagram size={35} />
+        </a>
+        <a href="https://www.facebook.com/ariel.plazasalinas" target="_blank">
+          <FaFacebook size={35} />
+        </a>
+        <a href="https://www.twitter.com/ArielPlaza_s" target="_blank">
+          <FaTwitter size={35} />
+        </a>
       </div>
     </div>
   ); 
