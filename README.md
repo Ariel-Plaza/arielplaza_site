@@ -1,9 +1,15 @@
-# React + Vite
+# Ariel Plaza - web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Descripción
 
-Currently, two official plugins are available:
+   Este proyecto lo realize para generar mi pagina con una version moderna y con nuevas tecnologias disponibles, 
+comenze a utilizar React y tome como base este proyecto para comenzar a practicar.
+Resuelve la necesidad de una pagina web personal con tecnologias modernas y practica de estas mismas.
+Con este proyecto aprendi estructurar aplicaciones React, props, y el trabajo con componentes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# myweb2023
+Este proyecto es una version basica sobre la cual se ira mejorando y aplicando nuevos conceptos react y de estilos de visualizacion en proximas versiones.
+
+##Creditos
+
+React + Vite
+Sass
