@@ -56,24 +56,6 @@
   font-weight: 700;
   src: url("../fonts/SpaceGrotesk-Bold.otf") format("woff2");
 }
-
-
-
-/* (Opcional) Las adaptamos al modo oscuro */
-@media (prefers-color-scheme: dark) {
-  :root {
-    --negro: #ececec;
-  }
-}
-
-/* (Opcional) Desactivamos los animations en el caso de que el usuario haya configurado el modo sin animation */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-  }
-}
-
 /* Reseteamos los margin y paddings de todas las etiquetas */
 *,
 *::before,
@@ -85,35 +67,15 @@
   vertical-align: baseline;
 }
 
-*::before,
-*::after {
-  display: block;
-}
 
 
-
-/* Reseteamos los enlaces para funcionar como cajas... */
-a {
-  display: block;
-  text-decoration: none;
-  color: inherit;
-  font-size: inherit;
-}
 
 /* ... excepto los que se encuentran en párrafos */
 p a {
   display: inline;
 }
 
-/* Quitamos los puntos de los <li> */
-li {
-  list-style-type: none;
-}
 
-/* (Opcional) Configuramos anclas suaves */
-html {
-  scroll-behavior: smooth;
-}
 
 /* Desactivamos estilos por defecto de las principales etiquetas de texto */
 h1,
@@ -130,11 +92,11 @@ i,
 b,
 u,
 em {
-  /* font-size: inherit;
+  font-size: inherit;
   font-weight: inherit;
   font-style: inherit;
   text-decoration: none;
-  color: inherit; */
+  color: inherit; 
 }
 
 /* Evitamos problemas con los pseudoelementos de quotes */
@@ -144,12 +106,6 @@ q:before,
 q:after {
   content: '';
   content: none;
-}
-
-/* (Opcional) Configuramos el texto que seleccionamos */
-::selection {
-  background-color: var(--negro);
-  color: var(--blanco);
 }
 
 /* Nivelamos problemas de tipografías y colocación de formularios */
@@ -165,39 +121,14 @@ label {
   background-color: transparent;
   color: inherit;
   display: block;
-  /* (Opcional) */
-  appearance: none;
 }
 
-/* Reseteamos las tablas */
-table,
-tr,
-td {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
-/* Evitamos problemas con los SVG */
-svg {
-  width: 100%;
-  display: block;
-  fill: currentColor;
-}
 
 /* Configuramos la tipografía para toda la web */
 body {
-  min-height: 100vh;
   background-color: var(--main-background);
   font-size: 100%;
   font-family: "Space Grotesk";
   color: var(--font-color);
-  /* (Opcional) */
-  hyphens: auto;
-  /* (Opcional) */
-  font-smooth: always;
-  /* (Opcional) */
-  -webkit-font-smoothing: antialiased;
-  /* (Opcional) */
-  -moz-osx-font-smoothing: grayscale;
-  overflow-x: hidden;
 }
