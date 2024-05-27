@@ -1,19 +1,20 @@
-import "./index.sass"
+import { useMediaQuery } from "react-responsive";
+import "./index.sass";
 import Logo from "./Logo.jsx";
 import Nav from "./Nav.jsx";
-import Hamburguer from "./Hamburguer.jsx"
-const Navbar = () => {
+import Hamburguer from "./Hamburguer.jsx";
+
+const Header = () => {
+  const isTablet = useMediaQuery({ maxWidth: 990 });
+
   return (
-    <div className="navbar">
+    <div className="header">
       <div className="logo">
         <Logo />
       </div>
-      <div className="menu">
-        <Nav />
-      </div>
-      <Hamburguer/>
+      {isTablet ? <Hamburguer /> : <Nav />}
     </div>
   );
 };
 
-export default Navbar;
+export default Header;
