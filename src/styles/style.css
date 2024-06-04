@@ -85,10 +85,32 @@ li {
   list-style-type: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+a,
+strong,
+blockquote,
+i,
+b,
+u,
+em {
+  font-size: inherit;
+  font-weight: inherit;
+  font-style: inherit;
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   background-color: var(--main-background);
   font-size: 100%;
-  font-family: "Space Grotesk";
+  font-family: var(--tipo-principal);
   color: var(--font-color);
 }
 

@@ -4,7 +4,7 @@ import iconarrow from "../../../assets/icons/down.png"
 const Left = () => {
   return (
     <div className="left">
-      <p className="line_up"></p>
+      
       <h1>Soy Ariel,<br />
         Diseñador Web</h1>
       <p>
