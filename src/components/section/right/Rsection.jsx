@@ -1,6 +1,6 @@
 export function RightComponent ({componentTitle, componentInfo, componentButton}) {
   return (
-    <div className="right_component">
+    <div className="rightComponent">
       <h2>{componentTitle}</h2>
       <p>{componentInfo}</p>
       <div className="link">

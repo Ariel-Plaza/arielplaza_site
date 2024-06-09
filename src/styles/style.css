@@ -107,6 +107,7 @@ em {
   color: inherit;
 }
 
+
 body {
   background-color: var(--main-background);
   font-size: 100%;
@@ -116,4 +117,10 @@ body {
 
 .fa {
   line-height: 1;
+}
+body,
+html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
 }

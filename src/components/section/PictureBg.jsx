@@ -4,8 +4,10 @@ import picture from "../../assets/img/perfil.png";
 
 const PictureBg = () => {
   return (
-    <div className="picture-bg">
-      <img src={picture} alt="Ariel Plaza" />
+    <div className="containerPicture">
+      <div className="pictureBg">
+        <img src={picture} alt="Ariel Plaza" />
+      </div>
     </div>
   );
 };

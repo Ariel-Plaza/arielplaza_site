@@ -11,7 +11,7 @@ const Section = () => {
         <div className="center"></div>
         <Right />
       </div>
-      {/* <PictureBg /> */}
+      <PictureBg />
     </div>
   );
 };

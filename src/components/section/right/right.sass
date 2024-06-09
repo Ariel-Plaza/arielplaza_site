@@ -3,16 +3,22 @@
   display: flex
   flex-direction: column
   justify-content: space-around
-  .right_component
+  margin-top: 50px
+  .rightCard
     display: flex
     flex-direction: column
     border-bottom-width: 1px
     border-style: solid
     border-bottom-color: #ffffff19
+    padding-bottom: 20px
+    .rightComponent
+      display: flex
+      flex-direction: column
+      padding: 0 10px
     h2
       margin-top: 20px
       margin-bottom: 16px
-      font-size: var(--font-size-side-title)
+      font-size: 16px
       font-weight: var(--font-weight-bold)
       letter-spacing: 2px
     p
@@ -21,14 +27,17 @@
       font-size: var(--font-size-side-subtitle)
       font-weight: var(--font-weight-regular)
       line-height: 27px
-      white-space: pre-line
+
     .link
       width: fit-content
       button
-        margin: 5px 0 10px
+        margin: 2px 0 10px
         text-align: start
         background-color: #ffffff00
         color: var(--font-color)
+        font-size: 16px
+        word-spacing: 3px
+        letter-spacing: 1.5px
       .line
         width: 100%
         height: 2px
@@ -46,11 +55,42 @@
       width: 80%
       display: flex
       flex-direction: row
-      justify-content: space-between
       margin-top: 10px
-  // .socials
-  //   display: flex
-  //   margin-top: 10px
+      a
+        margin: 0 12px
+
+@media (min-width: 480px )
+  .right
+    .rightCard
+      flex-direction: row
+      .rightComponent
+        width: 50%
+        p
+          vertical-align: text-top
+        .link
+          height: 100%
+          display: flex
+          flex-direction: column
+          justify-content: flex-end
+
+@media (min-width: 768px)
+  .right
+    width: 50%
+    margin: 0
+    .rightCard
+      flex-direction: column
+      .rightComponent
+        width: 100%
+        justify-content: flex-start
+        h2
+          font-size: 18px
+          margin: 0
+    .socials
+      .links
+        margin-top: 40px
+        a
+          margin: 0 19px
+    // background-color: red
 //@media (min-width: 771)
 // .right
 //   width: 35%
