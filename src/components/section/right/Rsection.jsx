@@ -7,6 +7,7 @@ export function RightComponent ({componentTitle, componentInfo, componentButton}
         <button>{componentButton}</button>
         <hr className="line"></hr>
       </div>
+      <div className="divider"></div>
     </div>
   );
 };
