@@ -10,18 +10,25 @@ const Hamburguer = () => {
   }
 
   return (
-    <div className="nav_hamburguer">
+    <div className="navHamburguer">
       <div className="figHamburguer" onClick={handleClick}>
-        <i className="fa fa-bars fa-2xl" aria-hidden="true"></i>
+        <FaBars size={40} />
       </div>
       {menu && (
         <div className="nav">
-          <ul className="nav_item">
-            <li>Inicio</li>
-            <li>Nosotros</li>
-            <li>Contacto</li>
-            <li>Historia</li>
-            <li>Imagenes</li>
+          <ul className="navItem">
+            <li className="active">
+              <a href="#Inicio">Home</a>
+            </li>
+            <li>
+              <a href="#sobreMi">Sobre Mi</a>
+            </li>
+            <li>
+              <a href="#portafolio">Portafolio</a>
+            </li>
+            <li>
+              <a href="#contacto">Contacto</a>
+            </li>
           </ul>
         </div>
       )}

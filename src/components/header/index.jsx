@@ -5,14 +5,15 @@ import Nav from "./Nav.jsx";
 import Hamburguer from "./Hamburguer.jsx";
 
 const Header = () => {
-  const isTablet = useMediaQuery({ maxWidth: 990 });
-
+  const isTablet = useMediaQuery({ minWidth: 769 })
   return (
     <div className="header">
-      <div className="logo">
+      <div className="container">
+        <div className="logo">
         <Logo />
       </div>
-      {isTablet ? <Hamburguer /> : <Nav />}
+      {isTablet ? <Nav /> : <Hamburguer />}
+      </div>
     </div>
   );
 };

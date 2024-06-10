@@ -9,7 +9,8 @@ import { FaTwitter } from "react-icons/fa6";
 const Right = () => {
   return (
     <div className="right">
-      <RightComponent
+      <div className="rightCard">
+        <RightComponent
         componentTitle="SOBRE MI"
         componentInfo="Cuento con experiencia en diseño y creacion web. Ofrezco soluciones
         creativas y eficientes que se ajustan a necesidades específicas."
@@ -20,22 +21,27 @@ const Right = () => {
         componentInfo="He trabajado en el desarrollo de tiendas online y sitios web corporativos. Entre mis trabajos destacan Marticar Roller, Ryslogistica.cl, Arbass.cl, utilizando WordPress, Elementor, WooCommerce."
         componentButton="VER PORTAFOLIO"
       />
+      </div>
+      
       <div className="socials">
-        <a href="https://www.github.com/Ariel-Plaza/" target="_blank">
-          <FaGithub size={35} />
-        </a>
-        <a href="https://www.linkedin.com/in/arielplazas" target="_blank">
-          <FaLinkedin size={35} />
-        </a>
-        <a href="https://www.instagram.com/arielplaza/" target="_blank">
-          <FaInstagram size={35} />
-        </a>
-        <a href="https://www.facebook.com/ariel.plazasalinas" target="_blank">
-          <FaFacebook size={35} />
-        </a>
-        <a href="https://www.twitter.com/ArielPlaza_s" target="_blank">
-          <FaTwitter size={35} />
-        </a>
+        <h2>SIGUEME</h2>
+        <div className="links">
+          <a href="https://www.github.com/Ariel-Plaza/" target="_blank">
+            <FaGithub size={35} />
+          </a>
+          <a href="https://www.linkedin.com/in/arielplazas" target="_blank">
+            <FaLinkedin size={35} />
+          </a>
+          <a href="https://www.instagram.com/arielplaza/" target="_blank">
+            <FaInstagram size={35} />
+          </a>
+          <a href="https://www.facebook.com/ariel.plazasalinas" target="_blank">
+            <FaFacebook size={35} />
+          </a>
+          <a href="https://www.twitter.com/ArielPlaza_s" target="_blank">
+            <FaTwitter size={35} />
+          </a>
+        </div>
       </div>
     </div>
   ); 

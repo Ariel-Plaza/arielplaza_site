@@ -4,12 +4,12 @@ import iconarrow from "../../../assets/icons/down.png"
 const Left = () => {
   return (
     <div className="left">
-      <p className="line_up"></p>
-      <h1>Soy Ariel,<br />
+      <div className="lineUp"></div>
+      <h1>Soy Ariel,
         Diseñador Web</h1>
       <p>
         Un apasionado desarrollador web freelance, listo para convertir tus
-        ideas en realidad.
+        ideas en realidad. Aplicando tecnologias modernas.
       </p>
       <ButtonIcon
         icon={iconarrow}
