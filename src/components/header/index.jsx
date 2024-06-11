@@ -9,9 +9,7 @@ const Header = () => {
   return (
     <div className="header">
       <div className="container">
-        <div className="logo">
-        <Logo />
-      </div>
+      <Logo/>
       {isTablet ? <Nav /> : <Hamburguer />}
       </div>
     </div>

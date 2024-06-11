@@ -3,10 +3,15 @@ import logotipo from "../../assets/img/logo.svg"
 
 const Logo = () => {
   return (
-    <figure>
-        <img src={logotipo} alt="Ariel Plaza - Desarrollador Web" className="logo"/>
-    </figure>
-  )
+    <div className="logo">
+      <figure>
+        <img
+          src={logotipo}
+          alt="Ariel Plaza - Desarrollador Web"
+        />
+      </figure>
+    </div>
+  );
 }
 
 export default Logo;

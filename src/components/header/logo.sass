@@ -1,2 +1,26 @@
-figure
-  width: 250px
+.logo
+  width: 100%
+  figure
+    width: 80%
+    margin: auto
+    img
+      max-width: 340px
+
+@media (min-width: 480px )
+  .logo
+    width: 70%
+    figure
+      img
+        max-width: 400px
+
+@media (min-width: 769px )
+  .logo
+    width: 40%
+    display: flex
+    justify-content: flex-start
+    figure
+      width: 90%
+      margin: 0
+      img
+        width: 100%
+        max-width: 350px

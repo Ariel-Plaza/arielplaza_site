@@ -12,7 +12,7 @@ const Hamburguer = () => {
   return (
     <div className="navHamburguer">
       <div className="figHamburguer" onClick={handleClick}>
-        <FaBars size={40} />
+        <FaBars size={35} />
       </div>
       {menu && (
         <div className="nav">
