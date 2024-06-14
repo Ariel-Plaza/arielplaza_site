@@ -1,5 +1,7 @@
 .containerPicture
   width: 100%
+  z-index: 0
+
   .pictureBg
     display: flex
     justify-content: center
@@ -17,19 +19,32 @@
 
 @media (min-width: 768px)
   .containerPicture
-    width: 100%
-    background-color: red
-    // position: relative
+    position: relative
     .pictureBg
-      // position: absolute
-      // bottom: -190px
-      // right: 130px
-      width: 100%
+      position: absolute
+      bottom: 0px
+      left: 0px
+      z-index: 0
+      img
+        width: 100%
+        max-width: 450px
 
 @media (min-width: 991px )
   .containerPicture
     .pictureBg
-      // bottom: -20px
-      // right: -30px
+      width: 100%
+      bottom: 0px
+      left: 70px
       img
-        max-width: 650px
+        width: 100%
+        max-width: 750px
+
+
+@media (min-width: 1250px )
+  .containerPicture
+    max-width: 1500px
+    .pictureBg
+      // bottom: 0px
+      // left: 0px
+
+  
