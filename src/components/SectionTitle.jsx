@@ -1,9 +1,9 @@
-import "./section_title.sass";
+import "./sectiontitle.sass";
 
 export function SectionTitle({ sectionTitle, Title }) {
   return (
-    <div className="section_title">
-      <div className="title_up">
+    <div className="sectionTitle">
+      <div className="titleUp">
         <p>/</p>
         <h3>{sectionTitle}</h3>
       </div>
