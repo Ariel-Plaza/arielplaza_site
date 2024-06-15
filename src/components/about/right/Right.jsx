@@ -1,4 +1,6 @@
-const Right = ()=> {
+import "./right.sass"
+
+const Right = () => {
   return (
     <div className="right">
       <div className="title">

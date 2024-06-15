@@ -14,7 +14,7 @@ const Clients = () => {
         <h1>TRABAJE PARA:</h1>
         <div className="icons">
           <CompanyLogo src={aprLogo} alt={"Logo Apr Maicolpue"} />
-          <CompanyLogo src={marticarLogo} alt={"Logo MArticarroller"} />
+          {/* <CompanyLogo src={marticarLogo} alt={"Logo MArticarroller"} /> */}
           <CompanyLogo src={arbassLogo} alt={"Logo Arbass"} />
         </div>
       </div>
