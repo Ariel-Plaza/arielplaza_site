@@ -13,10 +13,14 @@ const About = () => {
           sectionTitle="SOBRE MI"
           Title="He desarrollado sitios web desde 2011 "
         />
-        <Left />
-        <div className="center"></div>
-        <Right />
-        <Clients/>
+        <div className="upSection">
+          <Left />
+          <div className="center"></div>
+          <Right />
+        </div>
+        <div className="bottomSection">
+          <Clients />
+        </div>
       </div>
     </div>
   );
