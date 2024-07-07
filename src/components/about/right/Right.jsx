@@ -6,9 +6,8 @@ const Right = () => {
       <div className="title">
         <div className="first">
           <h2>2</h2>
-          <div>
-            <p>Años</p>
-            <p> Full-Stack JS</p>
+          <div className="text">
+            <p>Años Full-Stack JS</p>
           </div>
         </div>
         <div className="second">
@@ -17,8 +16,8 @@ const Right = () => {
         </div>
       </div>
       <p className="text-bottom">
-        En el ultimo tiempo he aprendido sobre desarrollo Back-end.
-        Aprendiendo JS, Node, SQL, Bootstrap, React.
+        En el ultimo tiempo he aprendido sobre desarrollo Back-end. Aprendiendo
+        JS, Node, SQL, Bootstrap, React.
       </p>
     </div>
   );

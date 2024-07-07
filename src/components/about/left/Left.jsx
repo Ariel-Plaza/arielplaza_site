@@ -1,8 +1,13 @@
 import "./left.sass";
+import SectionTitle from "../../SectionTitle.jsx";
 
 const Left = () => {
   return (
     <div className="left">
+      <SectionTitle
+        sectionTitle="SOBRE MI"
+        Title="He desarrollado sitios web desde 2011 "
+      />
       <p>
         Centrando mi atención principalmente en el Front-end, inicialmentenpm
         diseñé páginas web utilizando HTML y CSS. Con el tiempo, amplié mis

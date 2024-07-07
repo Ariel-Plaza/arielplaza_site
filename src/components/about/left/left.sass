@@ -1,28 +1,45 @@
 .about
   .container
-    .left
-      width: 100%
-      height: 400px
-      display: flex
-      flex-direction: column
-      justify-content: space-evenly
-      p
-        font-size: var(--font-size-section-info)
-        font-weight: var(--font-weight-normal)
-        line-height: 30px
-      .link
-        width: fit-content
-        button
-          margin: 2px 0 10px
-          text-align: start
-          background-color: #ffffff00
-          color: var(--font-color)
-          font-size: 25px
-          font-weight: var(--font-weight-bold)
-          word-spacing: 3px
-          letter-spacing: 1.5px
-        .line
-          width: 100%
-          height: 2px
-          background-color: #ffffff5f
-          margin-bottom: 40px
+    .upSection
+      .left
+        width: 100%
+        height: 400px
+        display: flex
+        flex-direction: column
+        justify-content: space-evenly
+        p
+          color: var(--bg-card-upper)
+          font-size: 16px
+          font-weight: var(--font-weight-normal)
+          line-height: 27px
+        .link
+          width: fit-content
+          button
+            margin: 2px 0 10px
+            text-align: start
+            background-color: #ffffff00
+            color: var(--font-color)
+            font-size: 22px
+            font-weight: var(--font-weight-bold)
+            word-spacing: 3px
+            letter-spacing: 1.5px
+          .line
+            width: 100%
+            height: 2px
+            background-color: #ffffff5f
+            margin-bottom: 40px
+
+@media (min-width: 768px)
+  .about
+    .container
+      .upSection
+        .left
+          p
+            font-size: 18px
+
+@media (min-width: 990px)
+  .about
+    .container
+      .upSection
+        .left
+          height: 600px

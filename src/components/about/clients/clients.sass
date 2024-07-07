@@ -1,42 +1,41 @@
 .clients
-  // height: 700px
-  margin-top: 40px
+  .divider
+    border-bottom-width: 1px
+    border-style: solid
+    border-bottom-color: rgba(255, 255, 255, 0.0980392157)
+    margin: 15px 0
   .content
+    margin: 40px 0
+    h1
+      font-size: 18px
+      font-weight: var(--font-weight-bold)
+      text-align: center
+      margin-bottom: 30px
     .icons
-      height: 400px
       display: flex
-      flex-direction: column
-      align-items: center
-      justify-content: space-between
-
-@media (max-width:768px)
-.clients
-  .content
-    .icons
-      height: 100%
       flex-direction: row
+      align-items: center
+      flex-wrap: wrap
+      justify-content: space-around
+      // column-gap: 10px
 
-@media (max-width: 991px)
-
-  // .clients
-//   width: 100%
-//   // height: 200px
-//   grid-column: 1 / 4
-//   grid-row: 3 / 4
-//   .line
-//     height: 1px
-//     width: 100%
-//     background-color: #b9b2b2
-//     .content
-//       height: 200px
-//       width: 100%
-//       display: flex
-//       flex-direction: row
-//       align-items: center
-//       .icons
-//         height: 200px
-//         width: 80%
-//         display: flex
-//         flex-direction: row
-//         align-items: center
-//         justify-content: space-around
+@media (min-width: 990px )
+  .clients
+    width: 100%
+    .content
+      height: 200px
+      width: 100%
+      display: flex
+      flex-direction: row
+      align-items: center
+      h1
+        width: 300px
+        font-size: 20px
+        margin-bottom: 0px
+      .icons
+        height: 200px
+        width: 80%
+        display: flex
+        flex-direction: row
+        align-items: center
+        justify-content: space-around
