@@ -1,16 +1,15 @@
 import Slider from "react-slick";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import Card from "./Card.jsx"
+import Card from "./Card.jsx";
 import htmlIcon from "../../assets/icons/html.svg";
 import jsIcon from "../../assets/icons/js.png";
 import nodejsIcon from "../../assets/icons/nodejs.png";
 import wordpressIcon from "../../assets/icons/wordpress.png";
 import wooIcon from "../../assets/icons/woo.png";
 
-import "./carrouselslider.sass"
+import "./carrouselslider.sass";
 
 export default function SimpleSlider() {
   var settings = {
@@ -29,6 +28,8 @@ export default function SimpleSlider() {
           info="Experiencia destacada en la creación de interfaces web
                 estéticas, funcionales, accesibles y responsivas."
         />
+      </div>
+      <div className="slide_card">
         <Card
           icon={jsIcon}
           title="Javascript"
@@ -41,6 +42,8 @@ export default function SimpleSlider() {
           title="Node JS"
           info="Familiarizado con el desarrollo de aplicaciones web, manejo npm, servidores HTTP y el desarrollo de API RESTful."
         />
+      </div>
+      <div className="slide_card">
         <Card
           icon={nodejsIcon}
           title="SQL"
@@ -53,6 +56,8 @@ export default function SimpleSlider() {
           title="WORDPRESS"
           info="He creado paginas web, tiendas y blogs"
         />
+      </div>
+      <div className="slide_card">
         <Card
           icon={wooIcon}
           title="WOOCOMMERCE"
