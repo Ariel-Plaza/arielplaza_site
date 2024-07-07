@@ -1,12 +1,9 @@
-import React from "react";
 import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 import Card from "./Card.jsx"
-
-import iconarrow from "../../assets/icons/down.png";
 import htmlIcon from "../../assets/icons/html.svg";
 import jsIcon from "../../assets/icons/js.png";
 import nodejsIcon from "../../assets/icons/nodejs.png";
