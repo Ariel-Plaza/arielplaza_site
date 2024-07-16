@@ -1,7 +1,7 @@
 import SectionTitle from "../SectionTitle.jsx";
 
 import "./index.sass";
-import CarrouselSLider from "./CarrouselSlider.jsx"
+import CarrouselSLider from "./CarouselSlider.jsx"
 const Skills = () => {
   return (
     <div className="skills">

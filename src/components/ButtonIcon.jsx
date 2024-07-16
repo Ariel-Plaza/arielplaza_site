@@ -13,7 +13,6 @@ function ButtonIcon({ icon, rotateRight, rotateLeft, href }) {
     iconStyle.transform = "rotate(90deg)";
     iconStyle.marginRight = "15px";
     iconStyle.padding = "0px";
-    
   }
 
   return (
