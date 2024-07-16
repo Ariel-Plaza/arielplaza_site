@@ -1,0 +1,109 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css')
+
+// Arrows
+.slick-prev,
+.slick-next
+  top: 440px
+  width: 56px
+  height: 56px
+  z-index: 1
+  background-color: var(--big-icons)
+  border-radius: 50%
+
+.slick-prev
+  left: calc((100% - 56px) / 3)
+
+.slick-next
+  right: calc((100% - 56px) / 3)
+
+.slick-prev::before,
+.slick-next::before
+  font-family: FontAwesome
+  font-size: 25px
+
+.slick-prev::before
+  content: "\f053"
+
+.slick-next::before
+  content: "\f054"
+
+.slick-prev:hover,
+.slick-prev:focus,
+.slick-next:hover,
+.slick-next:focus
+  background: var(--big-icons)
+
+// List
+.slick-list
+  .slick-track 
+    .slick-slide
+      div
+        .slide_card
+          height: 475px
+          display: flex !important
+          flex-direction: row
+          gap: 10px
+
+@media (min-width: 480px)
+  .slick-prev,
+  .slick-next
+    width: 60px
+    height: 60px
+
+  .slick-prev::before,
+  .slick-next::before
+    font-size: 29px
+
+@media (min-width: 768px)
+  .slick-prev,
+  .slick-next
+    width: 64px
+    height: 64px
+
+  .slick-prev::before,
+  .slick-next::before
+    font-size: 33px
+  .slick-list
+    .slick-track 
+      .slick-slide
+        div
+          .slide_card
+            flex: 0 0 50%   
+
+@media (min-width: 990px)
+
+  // Arrows
+  .slick-prev,
+  .slick-next 
+    top: -100px
+    width: 100px 
+    height: 100px
+    z-index: 1
+    background-color: var(--big-icons)
+    border-radius: 50%
+    -webkit-transform: translate(0, -50%)
+    -ms-transform: translate(0, -50%)
+    transform: translate(0, -50%)
+
+  .slick-prev 
+    left: calc(100% - 225px)
+
+  .slick-next 
+    left: calc(100% - 100px)
+
+  .slick-prev::before
+    font-family: FontAwesome
+    content: "\f053"
+    font-size: 40px
+
+  .slick-next::before
+    font-family: FontAwesome
+    content: "\f054"
+    font-size: 40px
+
+  .slick-prev:hover,
+  .slick-prev:focus,
+  .slick-next:hover,
+  .slick-next:focus
+      background: var(--big-icons)
+      
