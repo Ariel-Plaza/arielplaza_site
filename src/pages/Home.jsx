@@ -12,7 +12,7 @@ const Index = () => {
   return (
     <div className="home">
       <Header />
-      <Section />
+      {/* <Section /> */}
       {/* <About />
       <Skills /> 
       <Portfolio />
