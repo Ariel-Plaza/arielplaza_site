@@ -2,7 +2,7 @@ import "./nav.sass"
 const Nav = () => {
   return (
     <nav className="nav">
-      <ul>
+      <ul className="navItem">
         <li className="active">
           <a href="#Inicio">Home</a>
         </li>

@@ -5,7 +5,7 @@ import Nav from "./Nav.jsx";
 import Hamburguer from "./Hamburguer.jsx";
 
 const Header = () => {
-  const isTablet = useMediaQuery({ minWidth: 769 })
+  const isTablet = useMediaQuery({ minWidth: 768 })
   return (
     <div className="header">
       <div className="container">
