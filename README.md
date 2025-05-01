@@ -48,4 +48,11 @@ Este proyecto es una version basica sobre la cual se ira mejorando y aplicando n
 React + Vite
 Sass
 
+##Instalacion
+
+se debe ejecutar npm install para la instalacion de dependencias
+
+##Ejecucion
+
+npm run dev
 
