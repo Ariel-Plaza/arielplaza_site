@@ -10,14 +10,14 @@ const Hamburguer = () => {
   }
 
   return (
-    <div className="navHamburguer">
-      <div className="figHamburguer" onClick={handleClick}>
+    <div className="hamburgerMenuContainer">
+      <div className="hamburgerIcon" onClick={handleClick}>
         <FaBars size={40} />
       </div>
       {menu && (
-        <div className="nav">
-          <ul className="navItem">
-            <li className="active">
+        <div className="menu">
+          <ul className="menuItems">
+            <li className="menuItemActive">
               <a href="#Inicio">Home</a>
             </li>
             <li>

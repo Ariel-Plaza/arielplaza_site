@@ -12,13 +12,13 @@ const Index = () => {
   return (
     <div className="home">
       <Header />
-      {/* <Section /> */}
-      {/* <About />
+      <Section />
+      <About />
       <Skills /> 
       <Portfolio />
       <Testimonials />
-      <Contact />
-      <Footer /> */}
+      {/* <Contact /> */}
+      <Footer />
     </div>
   );
 };
