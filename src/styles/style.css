@@ -17,7 +17,7 @@
   /* Tamaño de la fuente */
   --font-size-title: 76px;
   --font-size-subtitle: 18px;
-  --font-size-menu: 20px;
+  --font-size-menu: 18px;
   --font-size-side-title: 18px;
   --font-size-side-subtitle: 18px;
   --font-size-side-link: 16px;
@@ -123,4 +123,5 @@ html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
+
 }

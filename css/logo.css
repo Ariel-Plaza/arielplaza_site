@@ -1,0 +1,13 @@
+.logo {
+  height: 40px;
+}/*# sourceMappingURL=logo.css.map */s-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+figure img {
+  width: 80%;
+  max-width: 350px;
+  height: auto;
+}/*# sourceMappingURL=logo.css.map */

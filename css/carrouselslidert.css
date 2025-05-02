@@ -1,0 +1,14 @@
+.slider_containert .slick-prev,
+.slider_containert .slick-next {
+  top: 500px;
+  width: 80px;
+  height: 80px;
+}
+
+.slider_containert .slick-prev {
+  left: 100px;
+}
+
+.slider_containert .slick-next {
+  left: 225px;
+}/*# sourceMappingURL=carrouselslidert.css.map */

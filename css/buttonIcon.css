@@ -1,0 +1,27 @@
+.circle {
+  width: 120px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-top: 4px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgb(40, 92, 236);
+}
+.circle .arrow img {
+  width: 60px;
+  height: 60px;
+  color: white;
+}/*# sourceMappingURL=buttonIcon.css.map */
