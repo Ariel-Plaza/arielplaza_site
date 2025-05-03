@@ -1,0 +1,42 @@
+.client_card {
+  height: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.client_card img {
+  width: 40%;
+  height: 430px;
+  border-radius: 20px;
+  padding: 10px;
+}
+.client_card .testimonial {
+  height: 430px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 0 30px;
+}
+.client_card .testimonial img {
+  height: 150px;
+  width: 150px;
+}
+.client_card .testimonial .info {
+  font-size: var(--font-size-card-client);
+  font-weight: var(--font-weight-bold);
+  line-height: 50px;
+  white-space: pre-wrap;
+}/*# sourceMappingURL=clientCard.css.map */

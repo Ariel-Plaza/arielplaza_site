@@ -1,0 +1,39 @@
+.containerPicture {
+  width: 100%;
+}
+.containerPicture .pictureBg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.containerPicture .pictureBg img {
+  width: 95%;
+}
+
+@media (min-width: 480px) {
+  .containerPicture .pictureBg img {
+    width: 60%;
+  }
+}
+@media (min-width: 768px) {
+  .containerPicture {
+    width: 100%;
+    background-color: red;
+    position: relative;
+  }
+  .containerPicture .pictureBg {
+    position: absolute;
+    bottom: -190px;
+    right: 130px;
+    width: 100%;
+  }
+}
+@media (min-width: 991px) {
+  .containerPicture .pictureBg {
+    bottom: -20px;
+    right: -30px;
+  }
+}/*# sourceMappingURL=picturebg.css.map */

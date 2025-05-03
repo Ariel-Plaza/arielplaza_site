@@ -1,0 +1,166 @@
+.right {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 50px;
+}
+.right .rightCard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.right .rightCard .rightComponent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0 10px;
+}
+.right .rightCard .rightComponent h2 {
+  margin-top: 20px;
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 2px;
+}
+.right .rightCard .rightComponent p {
+  margin-bottom: 24px;
+  color: var(--bg-card-upper);
+  font-size: var(--font-size-side-subtitle);
+  font-weight: var(--font-weight-regular);
+  line-height: 27px;
+}
+.right .rightCard .rightComponent .link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.right .rightCard .rightComponent .link button {
+  margin: 2px 0 10px;
+  text-align: start;
+  background-color: rgba(255, 255, 255, 0);
+  color: var(--font-color);
+  font-size: 16px;
+  word-spacing: 3px;
+  letter-spacing: 1.5px;
+}
+.right .rightCard .rightComponent .link .line {
+  width: 100%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.3725490196);
+  margin-bottom: 40px;
+}
+.right .rightCard .rightComponent .divider {
+  border-bottom-width: 1px;
+  border-style: solid;
+  border-bottom-color: rgba(255, 255, 255, 0.0980392157);
+  margin: 15px 0;
+}
+.right .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 40px;
+}
+.right .socials h2 {
+  font-size: var(--font-size-side-title);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: 2px;
+}
+.right .socials .links {
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 10px;
+}
+.right .socials .links a {
+  margin: 0 12px;
+}
+
+@media (min-width: 480px) {
+  .right .rightCard {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .right .rightCard .rightComponent {
+    width: 50%;
+  }
+  .right .rightCard .rightComponent p {
+    vertical-align: text-top;
+  }
+  .right .rightCard .rightComponent .link {
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+}
+@media (min-width: 768px) {
+  .right {
+    width: 50%;
+    margin: 0;
+  }
+  .right .rightCard {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .right .rightCard .rightComponent {
+    width: 100%;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .right .rightCard .rightComponent h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  .right .socials {
+    margin-bottom: 30px;
+  }
+  .right .socials .links {
+    margin-top: 40px;
+  }
+  .right .socials .links a {
+    margin: 0 19px;
+  }
+}
+@media (min-width: 991px) {
+  .right {
+    width: 40%;
+    z-index: 1;
+  }
+}/*# sourceMappingURL=right.css.map */

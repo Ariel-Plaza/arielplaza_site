@@ -1,24 +1,15 @@
+.nav
+  width: 55%
 .navItem
-    width: 100%
-    display: flex
-    flex-direction: column
-    align-items: center
-    li
-      margin-top : 10px
-      a
-        font-family: var(--tipo-principal)
-        font-size: var(--font-size-menu)
-
-@media (min-width: 768px )
-    .nav
-        width: 100%
-        .navItem
-          width: 90%
-          margin: 0 auto
-          display: flex
-          flex-direction: row
-          justify-content: space-between
+  display: flex
+  justify-content: space-evenly
+  li
+    a
+      font-size: calc(var(--font-size-menu) * 1.2)
 
 @media (min-width: 1024px)
     .nav  
-        width: 50%
+      .navItem
+        li
+          a
+            font-size: calc(var(--font-size-menu) * 1.3)

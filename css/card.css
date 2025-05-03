@@ -1,0 +1,81 @@
+.portfolio_card {
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 20px;
+  background-color: var(--bg-card-down);
+  overflow: hidden;
+}
+.portfolio_card .prog_lang {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 0px 20px;
+}
+.portfolio_card .prog_lang .tec_button {
+  width: 100px;
+  height: 45px;
+  margin: 10px;
+  padding-top: 11px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #5C6C83;
+  font-weight: var(--font-weight-bold);
+}
+.portfolio_card .client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: var(--font-size-card-client);
+  font-weight: var(--font-weight-medium);
+  padding: 0px 20px;
+}
+.portfolio_card .client img {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+.portfolio_card .project_title {
+  line-height: 1.5;
+  font-size: var(--font-size-card-client);
+  font-weight: var(--font-weight-bold);
+  padding: 0px 20px;
+}
+.portfolio_card img {
+  width: 100%;
+  height: 60vh;
+}
+
+.title {
+  grid-colum: 1/2;
+  grid-row: 1/2;
+}
+
+.one {
+  grid-colum: 2/3;
+  grid-row: 1/3;
+}
+
+.two {
+  grid-column: 1/2;
+  grid-row: 2/4;
+}
+
+.three {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}/*# sourceMappingURL=card.css.map */

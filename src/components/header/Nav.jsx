@@ -1,7 +1,7 @@
 import "./nav.sass"
 const Nav = () => {
   return (
-    <nav className="nav">
+    <div className="nav">
       <ul className="navItem">
         <li className="active">
           <a href="#Inicio">Home</a>
@@ -16,7 +16,7 @@ const Nav = () => {
           <a href="#contacto">Contacto</a>
         </li>
       </ul>
-    </nav>
+    </div>
   );
 };
 export default Nav;
