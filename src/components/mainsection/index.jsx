@@ -3,9 +3,9 @@ import Left from "./left/Left.jsx";
 import Right from "./right/Right.jsx";
 import PictureBg from "./PictureBg.jsx";
 
-const Section = () => {
+const MainSection = () => {
   return (
-    <div className="section" id="Inicio">
+    <div className="mainSection" id="Inicio">
       <div className="container">
         <Left />
         <Right />
@@ -15,4 +15,4 @@ const Section = () => {
   );
 };
 
-export default Section;
+export default MainSection;
