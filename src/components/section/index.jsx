@@ -7,11 +7,14 @@ const Section = () => {
   return (
     <div className="section" id="Inicio">
       <div className="container">
-        <Left />
-        <Right />
-        
+        <div className="container_up">
+          <Left />
+          <Right />
+        </div>
+        <div className="container_down">
+          <PictureBg />
+        </div>
       </div>
-    <PictureBg />
     </div>
   );
 };
