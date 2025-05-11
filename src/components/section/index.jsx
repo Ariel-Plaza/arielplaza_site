@@ -9,8 +9,9 @@ const Section = () => {
       <div className="container">
         <Left />
         <Right />
+        
       </div>
-      <PictureBg />
+    <PictureBg />
     </div>
   );
 };
