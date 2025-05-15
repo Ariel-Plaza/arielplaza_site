@@ -1,102 +1,187 @@
-.about  
+.about
   width: 100%
-  height: 1000px
-  display: flex
-  justify-content: center
-  align-items: center
+  padding: 1.25rem 0
   background-color: var(--seccondary-background)
-  .about_container
-    max-width: 1120px
+  .container
     width: 90vw
-    height: 720px
-    display: grid
-    grid-template-columns: 47.5% 5% 47.5%
-    align-items: center
-    .left 
-      width: 100%
-      height: 500px
-      display: flex
-      flex-direction: column
-      justify-content: space-evenly
-      .title
-        width: 100%
-        display: flex
-        align-items: center
-        font-size: var(--font-size-section-info)
+    display: flex
+    flex-direction: column
+    margin: auto
+    .left
+      .paragraph
+        font-size: var(--font-size-paragraph)
         font-weight: var(--font-weight-bold)
-        p
-          color: #00CE7C
-          font-size: 30px
-          
-        
-      h2
-        font-size: var(--font-size-section-title)
-        font-weight: var(--font-weight-bold)
-      p
-        font-size: var(--font-size-section-info)
-        font-weight: var(--font-weight-bold)
-        line-height: 30px
+        margin: 1.25rem 0
       .button
         font-size: var(--font-size-section-link)
         font-weight: var(--font-weight-bold)
-    .center
-      width: 100%
-
-    .right 
-      width: 100%
-      height: 60%
-      display: flex
-      flex-direction: column
-      justify-content: start
+    .right
       .title
-        width: 100%
         display: flex
         flex-direction: row
+        justify-content: space-between
         .first
-          width: 50%
           display: flex
+          flex-direction: row 
+          justify-content: space-between
           align-items: center
-          h2
-            font-size: var(--font-size-section-title)
+          h2 
+            font-size: var(--font-size-title)
             font-weight: var(--font-weight-bold)
-            margin-right: 15px
-          p    
-            font-size: var(--font-size-section-subtitle)
+          .subtitle_about-first
+            font-size: var(--font-size-subtitle)
             font-weight: var(--font-weight-bold)
+            p 
+              margin-left: 10px
         .second
-          width: 50%
           display: flex
+          flex-direction: row
+          justify-content: space-between
           align-items: center
-          h2
-            font-size: var(--font-size-section-title)
+          h2 
+            font-size: var(--font-size-title)
             font-weight: var(--font-weight-bold)
-            margin-right: 15px
-          p  
-            font-size: var(--font-size-section-subtitle)
+          .subtitle_about-second
+            font-size: var(--font-size-subtitle)
             font-weight: var(--font-weight-bold)
+            p 
+              margin-left: 10px
       .text-bottom
-        padding-top:90px 
-        font-size: var(--font-size-section-info)
+        font-size: var(--font-size-paragraph)
         font-weight: var(--font-weight-bold)
-  .clients
-    width: 100%
-    height: 200px
-    grid-column: 1 / 4
-    grid-row: 3 / 4
-    .line
-      height: 1px
-      width: 100%
-      background-color: #b9b2b2
-    .content
-      height: 200px
-      width: 100%
-      display: flex
-      flex-direction: row
-      align-items: center
-      .icons
-        height: 200px
-        width: 80%
+        line-height: 30px
+        color: var(--bg-card-upper)
+        margin: 1.25rem 0
+    .clients
+      .line
+        height: 2px
+        width: 100%
+        background-color: #b9b2b2
+        margin-bottom: 1.25rem     
+      .content
         display: flex
-        flex-direction: row
+        flex-direction: column
         align-items: center
-        justify-content: space-around
+        h2 
+          font-size: var(--font-size-subtitle)
+          font-weight: var(--font-weight-bold)
+          margin-bottom: 1.25rem
+        .icons
+          display: flex
+          flex-direction: column
+          justify-content: space-between
+          align-items: center
+          // .icon
+          //   width: 100%
+          //   height: 100%
+          //   display: flex
+          //   justify-content: center
+          //   align-items: center
+          //   img 
+          //     width: 100%
+          //     height: 100%
+          //     object-fit: contain
+          //     margin: 0 1.25rem
+@media (min-width: 1024px )
+      .about  
+        width: 100%
+        height: 1000px
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: var(--seccondary-background)
+        .container
+          max-width: 1120px
+          width: 90vw
+          height: 720px
+          display: grid
+          grid-template-columns: 47.5% 5% 47.5%
+          align-items: center
+          .left 
+            width: 100%
+            height: 500px
+            display: flex
+            flex-direction: column
+            justify-content: space-evenly
+            .title
+              width: 100%
+              display: flex
+              align-items: center
+              font-size: var(--font-size-section-info)
+              font-weight: var(--font-weight-bold)
+              p
+                color: #00CE7C
+                font-size: 30px
+                
+              
+            h2
+              font-size: var(--font-size-section-title)
+              font-weight: var(--font-weight-bold)
+            p
+              font-size: var(--font-size-section-info)
+              font-weight: var(--font-weight-bold)
+              line-height: 30px
+            .button
+              font-size: var(--font-size-section-link)
+              font-weight: var(--font-weight-bold)
+          .center
+            width: 100%
+      
+          .right 
+            width: 100%
+            height: 60%
+            display: flex
+            flex-direction: column
+            justify-content: start
+            .title
+              width: 100%
+              display: flex
+              flex-direction: row
+              .first
+                width: 50%
+                display: flex
+                align-items: center
+                h2
+                  font-size: var(--font-size-section-title)
+                  font-weight: var(--font-weight-bold)
+                  margin-right: 15px
+                p    
+                  font-size: var(--font-size-section-subtitle)
+                  font-weight: var(--font-weight-bold)
+              .second
+                width: 50%
+                display: flex
+                align-items: center
+                h2
+                  font-size: var(--font-size-section-title)
+                  font-weight: var(--font-weight-bold)
+                  margin-right: 15px
+                p  
+                  font-size: var(--font-size-section-subtitle)
+                  font-weight: var(--font-weight-bold)
+            .text-bottom
+              padding-top:90px 
+              font-size: var(--font-size-section-info)
+              font-weight: var(--font-weight-bold)
+        .clients
+          width: 100%
+          height: 200px
+          grid-column: 1 / 4
+          grid-row: 3 / 4
+          .line
+            height: 1px
+            width: 100%
+            background-color: #b9b2b2
+          .content
+            height: 200px
+            width: 100%
+            display: flex
+            flex-direction: row
+            align-items: center
+            .icons
+              height: 200px
+              width: 80%
+              display: flex
+              flex-direction: row
+              align-items: center
+              justify-content: space-around

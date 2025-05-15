@@ -10,13 +10,13 @@ import arbassLogo from "../../assets/img/about/arbass.png";
 const About = () => {
   return (
     <div className="about" id="sobreMi">
-      <div className="about_container">
+      <div className="container">
         <div className="left">
           <SectionTitle
             sectionTitle="SOBRE MI"
             Title="He desarrollado sitios web desde 2011 "
           />
-          <p>
+          <p className="paragraph">
             Centrando mi atención principalmente en el Front-end,
             inicialmentenpm diseñé páginas web utilizando HTML y CSS. Con el
             tiempo, amplié mis habilidades incorporando herramientas como
@@ -28,20 +28,19 @@ const About = () => {
         <div className="center"></div>
         <div className="right">
           <div className="title">
-            <div className="first" >
+            <div className="first">
               <h2>2</h2>
-              <div>
+              <div className="subtitle_about-first">
                 <p>Años</p>
                 <p> Full-Stack JS</p>
               </div>
-              
             </div>
             <div className="second">
               <h2>10</h2>
-              <p>
-                Proyectos
-                Realizados
-              </p>
+              <div className="subtitle_about-second">
+                <p>Proyectos</p>
+                <p>Realizados</p>
+              </div>
             </div>
           </div>
           <p className="text-bottom">
@@ -52,7 +51,7 @@ const About = () => {
         <div className="clients">
           <div className="line" />
           <div className="content">
-            <h1>TRABAJE PARA:</h1>
+            <h2>TRABAJE PARA:</h2>
             <div className="icons">
               <CompanyLogo src={aprLogo} alt={"Logo Apr Maicolpue"} />
               <CompanyLogo src={marticarLogo} alt={"Logo MArticarroller"} />

@@ -1,19 +1,39 @@
 .section_title
-  width: 100%
   display: flex
   flex-direction: column
-  font-size: var(--font-size-section-info)
-  font-weight: var(--font-weight-bold)
   .title_up
     display: flex
     flex-direction: row
-    align-items: center
-    font-size: var(--font-size-section-subtitle)
-    
-    p
-      margin: 5px
-      color: #00CE7C
-  h2
-    margin-top: 40px
-    font-size: var(--font-size-section-title)
+    align-items: flex-end
+    font-size: var(--font-size-subtitle)
     font-weight: var(--font-weight-bold)
+    margin-bottom: 20px
+    p
+      color: #00CE7C
+      font-size: 30px
+    // h3
+  h2
+    font-size: var(--font-size-title)
+    font-weight: var(--font-weight-bold)
+    line-height: 40px
+
+@media (min-width: 1024px )
+  .section_title
+    width: 100%
+    display: flex
+    flex-direction: column
+    font-size: var(--font-size-section-info)
+    font-weight: var(--font-weight-bold)
+    .title_up
+      display: flex
+      flex-direction: row
+      align-items: center
+      font-size: var(--font-size-section-subtitle)
+
+      p
+        margin: 5px
+        color: #00CE7C
+    h2
+      margin-top: 40px
+      font-size: var(--font-size-section-title)
+      font-weight: var(--font-weight-bold)

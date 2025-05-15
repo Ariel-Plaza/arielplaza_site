@@ -15,9 +15,11 @@
   --tipo-secundaria: Verdana;
 
   /* Tamaño de la fuente */
-  --font-size-title: 76px;
-  --font-size-subtitle: 18px;
+  --font-size-title: 34px;
+  --font-size-subtitle: 20px;
   --font-size-menu: 18px;
+  --font-size-paragraph: 17px;
+  --font-size-link: 24px;
   --font-size-side-title: 18px;
   --font-size-side-subtitle: 18px;
   --font-size-side-link: 16px;
