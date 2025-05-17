@@ -7,7 +7,7 @@ const Left = () => {
       <div className="lineUp"></div>
       <h1>Soy Ariel,
         Diseñador Web</h1>
-      <p>
+      <p className="paragraph">
         Un apasionado desarrollador web freelance, listo para convertir tus
         ideas en realidad. Aplicando tecnologias modernas.
       </p>

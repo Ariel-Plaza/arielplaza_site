@@ -1,98 +1,101 @@
-.right
-  width: 100%
-  display: flex
-  flex-direction: column
-  justify-content: space-around
-  margin-top: 50px
-  .rightCard
+.container_up  
+  .right
+    width: 100%
     display: flex
     flex-direction: column
-    .rightComponent
+    justify-content: space-around
+    margin-top: 50px
+    .rightCard
       display: flex
       flex-direction: column
-      padding: 0 10px
+      .rightComponent
+        display: flex
+        flex-direction: column
+        padding: 0 10px
+        h2
+          margin-top: 20px
+          margin-bottom: 16px
+          font-size: 16px
+          font-weight: var(--font-weight-bold)
+          letter-spacing: 2px
+        p
+          margin-bottom: 24px
+          color: var(--bg-card-upper)
+          font-size: var(--font-size-side-subtitle)
+          font-weight: var(--font-weight-regular)
+          line-height: 27px
+        .link
+          width: fit-content
+          button
+            margin: 2px 0 10px
+            text-align: start
+            background-color: #ffffff00
+            color: var(--font-color)
+            font-size: 16px
+            word-spacing: 3px
+            letter-spacing: 1.5px
+          .line
+            width: 100%
+            height: 2px
+            background-color: #ffffff5f
+            margin-bottom: 40px
+        .divider
+          border-bottom-width: 1px
+          border-style: solid
+          border-bottom-color: #ffffff19
+          margin: 15px 0
+    .socials
+      display: flex
+      flex-direction: column
+      margin-top: 40px
       h2
-        margin-top: 20px
-        margin-bottom: 16px
-        font-size: 16px
+        font-size: var(--font-size-side-title)
         font-weight: var(--font-weight-bold)
         letter-spacing: 2px
-      p
-        margin-bottom: 24px
-        color: var(--bg-card-upper)
-        font-size: var(--font-size-side-subtitle)
-        font-weight: var(--font-weight-regular)
-        line-height: 27px
-      .link
-        width: fit-content
-        button
-          margin: 2px 0 10px
-          text-align: start
-          background-color: #ffffff00
-          color: var(--font-color)
-          font-size: 16px
-          word-spacing: 3px
-          letter-spacing: 1.5px
-        .line
-          width: 100%
-          height: 2px
-          background-color: #ffffff5f
-          margin-bottom: 40px
-      .divider
-        border-bottom-width: 1px
-        border-style: solid
-        border-bottom-color: #ffffff19
-        margin: 15px 0
-  .socials
-    display: flex
-    flex-direction: column
-    margin-top: 40px
-    h2
-      font-size: var(--font-size-side-title)
-      font-weight: var(--font-weight-bold)
-      letter-spacing: 2px
-    .links
-      width: 80%
-      display: flex
-      flex-direction: row
-      margin-top: 10px
-      a
-        margin: 0 12px
+      .links
+        width: 80%
+        display: flex
+        flex-direction: row
+        margin-top: 10px
+        a
+          margin: 0 12px
 
 @media (min-width: 480px )
-  .right
-    .rightCard
-      flex-direction: row
-      .rightComponent
-        width: 50%
-        p
-          vertical-align: text-top
-        .link
-          height: 100%
-          display: flex
-          flex-direction: column
-          justify-content: flex-end
+  .container_up  
+    .right
+      .rightCard
+        flex-direction: row
+        .rightComponent
+          width: 150%
+          p
+            vertical-align: text-top
+          .link
+            height: 100%
+            display: flex
+            flex-direction: column
+            justify-content: flex-end
 
 @media (min-width: 768px)
-  .right
-    width: 50%
-    // margin: 0
-    .rightCard
-      flex-direction: column
-      .rightComponent
-        width: 100%
-        justify-content: flex-start
+  .container_up  
+    .right
+      width: 50%
+      // margin: 0
+      .rightCard
+        flex-direction: column
+        .rightComponent
+          width: 100%
+          justify-content: flex-start
 
-        h2
-          font-size: 18px
-          margin: 0
+          h2
+            font-size: 18px
+            margin: 0
 
-    .socials
-      margin-bottom: 30px
-      .links
-        margin-top: 40px
-        a
-          margin: 0 19px
+      .socials
+        margin-bottom: 30px
+        .links
+          margin-top: 40px
+          a
+            margin: 0 19px
 
 @media (min-width: 1024px )
   .right
