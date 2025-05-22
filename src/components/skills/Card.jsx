@@ -5,7 +5,7 @@ const Card = ({ icon, title, info }) => {
   return (
     <div className="card">
       <ButtonIcon icon={icon} />
-      <h2>{title}</h2>
+      <h4>{title}</h4>
       <p>{info}</p>
       <span className="line" ></span>
     </div>
