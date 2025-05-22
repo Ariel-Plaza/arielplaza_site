@@ -14,7 +14,7 @@ const Skills = () => {
       <div className="skills_container">
           <SectionTitle
             sectionTitle="MIS APTITUDES"
-            Title="Conocimientos y aptitudes"
+            Title="Conocimientos"
           />
         <div className="slider_container">
           <CarrouselSLider/>

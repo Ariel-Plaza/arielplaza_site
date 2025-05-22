@@ -20,11 +20,12 @@ export default function SimpleSlider() {
     dots: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 1, // Por defecto en móvil
+    slidesToShow: 4,
     slidesToScroll: 1,
+    dots: true,
     responsive: [
       {
-        breakpoint: 1440, // Desktop grande
+        breakpoint: 1440, 
         settings: {
           slidesToShow: 3,
           slidesToScroll: 1,
@@ -32,23 +33,23 @@ export default function SimpleSlider() {
         },
       },
       {
-        breakpoint: 1024, // Tablet landscape
+        breakpoint: 1024, 
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 768, 
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
-          dots: true,
+          dots: false,
         },
       },
       {
-        breakpoint: 768, // Tablet portrait
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 480, // Móvil
+        breakpoint: 480, 
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
