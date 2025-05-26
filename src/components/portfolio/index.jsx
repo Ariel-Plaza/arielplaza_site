@@ -39,7 +39,7 @@ const Portfolio = () => {
             tecnology1="WORDPRESS"
             tecnology2="ELEMENTOR"
             icon_client={iconapr}
-            client="APR Maicolpue"
+            client="Apr Maicolpue"
             title="Pagina informativa"
             img={portfolio2}
           />
@@ -48,7 +48,7 @@ const Portfolio = () => {
             tecnology1="REACT"
             tecnology2="SASS"
             icon_client={iconaps}
-            client="Ariel Plaza - v1"
+            client="Ariel Plaza-v1"
             title="Sitio web para desarrollador"
             img={portfolio3}
           />
