@@ -22,10 +22,6 @@ const Portfolio = () => {
             Title="Mira mis ultimos proyectos"
           />
         </div>
-        <div className="button">
-          <p>Todos mis proyectos</p>
-          <FaArrowRight />
-        </div>
         <div className="card_portfolio_container">
           <Card
             href={"https://www.marticarroller.cl"}
@@ -56,6 +52,10 @@ const Portfolio = () => {
             title="Sitio web para desarrollador"
             img={portfolio3}
           />
+        </div>
+        <div className="button">
+          <p>Todos mis proyectos</p>
+          <FaArrowRight />
         </div>
       </div>
     </div>

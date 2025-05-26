@@ -17,7 +17,6 @@ import "./carrouselslider.sass"
 
 export default function SimpleSlider() {
   const settings = {
-    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 4,

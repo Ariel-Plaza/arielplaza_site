@@ -11,8 +11,13 @@ const Card = ({
   img,
 }) => {
   return (
-    <div className={portfolio_number}> 
-      <a href={href} target="_blank" >
+      <div className={portfolio_number}>
+        <a className="client_link"
+          href={href}
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label={`Ver proyecto: ${title}`}
+        >
         <div className="prog_lang">
           <div className="tec_button tec1">{tecnology1}</div>
           <div className="tec_button tec2">{tecnology2}</div>
@@ -22,11 +27,10 @@ const Card = ({
           {client}
         </div>
         <div className="project_title">{title}</div>
-        <div className="image">
-          <img src={img} alt="project image" />
-        </div>
-        </a>
-      </div>
+        <img className="project_image" src={img} alt="project image" />
+      </a>
+    </div>
+    
   );
 };
 
