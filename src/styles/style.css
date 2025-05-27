@@ -15,9 +15,11 @@
   --tipo-secundaria: Verdana;
 
   /* Tamaño de la fuente */
-  --font-size-title: 76px;
-  --font-size-subtitle: 18px;
+  --font-size-title: 34px;
+  --font-size-subtitle: 20px;
   --font-size-menu: 18px;
+  --font-size-paragraph: 17px;
+  --font-size-link: 24px;
   --font-size-side-title: 18px;
   --font-size-side-subtitle: 18px;
   --font-size-side-link: 16px;
@@ -25,7 +27,7 @@
   --font-size-section-subtitle: 20px;
   --font-size-section-info: 18px;
   --font-size-section-link: 24px;
-  --font-size-card-title: 38px;
+  --font-size-card-title: 25px;
   --font-size-card-client:34px;
 
   /* Peso de la fuente */

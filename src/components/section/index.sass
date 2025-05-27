@@ -1,23 +1,31 @@
 .section
   width: 100%
   height: 100%
-  margin-top: 50px
+  margin-top: 10px
   .container
-    width: 90vw
+    width: 90vw  
     display: flex
     flex-direction: column
     margin: auto
 
 @media (min-width: 768px )
   .section
+    margin-top: 20px
     .container
-      flex-direction: row
-      gap: 10px
-
-@media (min-width: 991px )
+      display: flex
+      flex-direction: column
+      .container_up
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+        margin: auto
+        gap: 20px
+      .container_down
+        height: 200px
+@media (min-width: 1024px )
   .section
-    width: 1000px
     margin: auto
     .container
-      max-width: 1220px
       gap: 15%
+      margin-top: 10px
