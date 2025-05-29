@@ -6,13 +6,11 @@ const Testimonials = () => {
   return (
     <div className="testimonials">
       <div className="testimonials_container">
-        <div className="up">
           <SectionTitle
             sectionTitle="TESTIMONIOS"
             Title="Opiniones de clientes sobre mi trabajo"
           />
-        </div>
-        <div className="slider_containert">
+        <div className="slider_container_testimonials">
           <CarrouselSliderT />
         </div>
       </div>
