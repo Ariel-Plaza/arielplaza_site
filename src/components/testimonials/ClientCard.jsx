@@ -6,9 +6,9 @@ const ClientCard = ({ img, brand, info, userclient, jobposition }) => {
     <div className="client_card">
       <img src={img} alt={userclient} />
       <div className="testimonial">
-        <img src={brand} alt="" />
         <p className="info">{info}</p>
         <div className="bottom">
+          <img src={brand} alt="" />
           <UserClient
             userclient={userclient}
             jobposition={jobposition}
